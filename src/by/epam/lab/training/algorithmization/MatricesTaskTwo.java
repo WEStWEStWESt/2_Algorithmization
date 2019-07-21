@@ -18,24 +18,23 @@ public class MatricesTaskTwo {
                 {9, 3, 5, 2, 0},
                 {6, 4, 7, 2, 1},
         };
+        printDiagonal(true, DEFAULT_MATRIX.length, DEFAULT_MATRIX);
+        printDiagonal(false, DEFAULT_MATRIX.length, DEFAULT_MATRIX);
+    }
 
-        System.out.print("Main diagonal: ");
-        for (int i = 0; i < DEFAULT_MATRIX.length; i++) {
-            for (int j = 0; j < DEFAULT_MATRIX.length; j++) {
-                if (i == j) {
-                    System.out.print(DEFAULT_MATRIX[i][j] + " ");
+    private static void printDiagonal(boolean main, int length, int[][] matrix) {
+        System.out.print(main ? "Main diagonal: " : "\nSide diagonal: ");
+        for (int i = 0; i < length; i++) {
+            for (int j = 0; j < length; j++) {
+                if (getCondition(i, j, length, main)) {
+                    System.out.print(matrix[i][j] + " ");
                 }
             }
         }
+    }
 
-        System.out.print("\nSide diagonal: ");
-        for (int i = 0; i < DEFAULT_MATRIX.length; i++) {
-            for (int j = 0; j < DEFAULT_MATRIX.length; j++) {
-                if (i + j == DEFAULT_MATRIX.length - 1) {
-                    System.out.print(DEFAULT_MATRIX[i][j] + " ");
-                }
-            }
-        }
+    private static boolean getCondition(int i, int j, int length, boolean main) {
+        return main ? (i == j) : (i + j == length - 1);
     }
 
 }
