@@ -1,13 +1,13 @@
-package by.epam.lab.training.algorithmization;
+package by.epam.lab.training.algorithmization.matrices;
 
 import java.util.Scanner;
 
-public class MatricesTaskThree {
+public class TaskThree {
 
     /*
     2. Algorithmization
 
-       Задачи. Массивы массивов
+       Задачи.  Массивы массивов
 
     3. Дана матрица.
        Вывести k-ю строку и p-й столбец матрицы.*/

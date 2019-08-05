@@ -1,9 +1,9 @@
-package by.epam.lab.training.algorithmization;
+package by.epam.lab.training.algorithmization.one_dimentional_arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class OneDimArraysTaskTwo {
+public class TaskTwo {
     /*
      2. Algorithmization
 

@@ -1,6 +1,6 @@
-package by.epam.lab.training.algorithmization;
+package by.epam.lab.training.algorithmization.matrices;
 
-public class MatricesTaskOne {
+public class TaskOne {
 
     /*
     2. Algorithmization
