@@ -1,8 +1,8 @@
-package by.epam.lab.training.algorithmization;
+package by.epam.lab.training.algorithmization.one_dimentional_arrays;
 
 import java.util.Arrays;
 
-public class OneDimArraysTaskFour {
+public class TaskFour {
 
     /*
      2. Algorithmization

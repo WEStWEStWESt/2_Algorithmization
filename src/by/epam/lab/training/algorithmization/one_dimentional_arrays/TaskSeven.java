@@ -1,6 +1,6 @@
-package by.epam.lab.training.algorithmization;
+package by.epam.lab.training.algorithmization.one_dimentional_arrays;
 
-public class OneDimArraysTaskSeven {
+public class TaskSeven {
 
     /*
       2. Algorithmization

@@ -1,8 +1,8 @@
-package by.epam.lab.training.algorithmization;
+package by.epam.lab.training.algorithmization.matrices;
 
 import java.util.Scanner;
 
-public class MatricesTaskThree {
+public class TaskThree {
 
     /*
     2. Algorithmization
