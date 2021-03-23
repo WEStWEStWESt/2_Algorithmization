@@ -11,7 +11,8 @@ public class TaskTwo {
 
      2. Дана последовательность действительных чисел а 1 ,а 2  ,..., а п .
         Заменить все ее члены, большие данного Z, этим
-        числом. Подсчитать количество замен.*/
+        числом. Подсчитать количество замен.
+    */
 
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
