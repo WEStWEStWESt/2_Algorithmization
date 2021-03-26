@@ -19,7 +19,6 @@ public class TaskSix {
         for (int n = 2; n < DEFAULT_ARRAY.length; n++) {
             boolean simple = true;
             for (int i = 2; i < n; i++) {
-
                 if ((n % i) == 0) {
                     simple = false;
                 }

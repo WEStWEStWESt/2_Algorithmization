@@ -19,7 +19,7 @@ public class TaskFour {
         double max = DEFAULT_ARRAY[0];
         int indexMin = 0;
         int indexMax = 0;
-        double tmp = 0;
+        double tmp;
 
         for (int i = 0; i < DEFAULT_ARRAY.length; i++) {
             double currentElement = DEFAULT_ARRAY[i];
