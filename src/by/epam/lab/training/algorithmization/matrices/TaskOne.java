@@ -24,7 +24,7 @@ public class TaskOne {
 
         boolean notMatch = true;
         for (int j = 1; j < COLUMN_LENGTH; j++) {
-            if (j == 1 || j % 2 != 0) {
+            if (j % 2 != 0) {
                 firstElement = DEFAULT_MATRIX[0][j];
                 lastElement = DEFAULT_MATRIX[COLUMN_LENGTH - 1][j];
                 if (firstElement > lastElement) {
