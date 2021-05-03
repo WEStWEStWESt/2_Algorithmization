@@ -13,10 +13,10 @@ public class TaskOne {
 
     public static void main(String[] args) {
         final int[][] DEFAULT_MATRIX = {
-                {5, 9, 9, 8, 6},
+                {9, 6, 9, 8, 3},
                 {4, 3, 0, 6, 4},
                 {0, 1, 0, 1, 7},
-                {9, 3, 5, 2, 0},
+                {5, 3, 5, 2, 0},
         };
         final int COLUMN_LENGTH = 4;
         int firstElement;
@@ -24,7 +24,7 @@ public class TaskOne {
 
         boolean notMatch = true;
         for (int j = 1; j < COLUMN_LENGTH; j++) {
-            if (j == 1 || j % 2 != 0) {
+            if ( j % 2 != 0 ) {
                 firstElement = DEFAULT_MATRIX[0][j];
                 lastElement = DEFAULT_MATRIX[COLUMN_LENGTH - 1][j];
                 if (firstElement > lastElement) {

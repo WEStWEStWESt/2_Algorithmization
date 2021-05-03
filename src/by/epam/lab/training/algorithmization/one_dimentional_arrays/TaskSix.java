@@ -10,10 +10,11 @@ public class TaskSix {
      6. Задана последовательность N вещественных чисел.
         Вычислить сумму чисел, порядковые номера которых
         являются простыми числами.
+        2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47 …
     */
 
     public static void main(String[] args) {
-        final double[] DEFAULT_ARRAY = {0, 1, 2, 3, 4, 5, 6, 7 , 8, 9, 10, 11};
+        final double[] DEFAULT_ARRAY = {0, 1, 2, 3, 9, 10, 11, 5};
         double sum = 0;
 
         for (int n = 2; n < DEFAULT_ARRAY.length; n++) {

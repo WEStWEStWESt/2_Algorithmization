@@ -27,7 +27,7 @@ public class TaskThree {
 
             System.out.print("Input a ROW number(from 1 to " + ROW_LENGTH + "): ");
             int numberRow = scanner.nextInt();
-            System.out.print("Input a COLUMN number(from 1 to " + COLUMN_LENGTH + ")");
+            System.out.print("Input a COLUMN number(from 1 to " + COLUMN_LENGTH + "): ");
             int numberColumn = scanner.nextInt();
 
             if ((numberRow < 1 || numberRow > ROW_LENGTH)

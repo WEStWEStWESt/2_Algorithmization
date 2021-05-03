@@ -12,7 +12,7 @@ public class TaskFive {
     */
 
     public static void main(String[] args) {
-        final int[] DEFAULT_ARRAY = {-1, 3, 0, 0, 48, -668, 0, -2, 1000, -1};
+        final int[] DEFAULT_ARRAY = {-1, 3, 0, 6, 48, -668, 0, -2, 1000, -1};
 
         System.out.print("Elements: ");
         for (int i = 0; i < DEFAULT_ARRAY.length; i++) {
