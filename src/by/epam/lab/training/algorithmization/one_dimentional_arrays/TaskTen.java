@@ -16,12 +16,12 @@ public class TaskTen {
      */
 
     public static void main(String[] args) {
-        final int[] DEFAULT_ARRAY = {1, 8, 3, 5, 7, 7, -2, -2};
+        final int[] DEFAULT_ARRAY = {9, 5, 3, 5, 7, 7, -2, -2};
 
         System.out.println("An initial array: " + Arrays.toString(DEFAULT_ARRAY));
         System.out.print("Result: ");
         for (int i = 0; i < DEFAULT_ARRAY.length; i++) {
-            if (i == 1 || i % 2 != 0) {
+            if (i % 2 != 0) {
                 System.out.print((DEFAULT_ARRAY[i] = 0) + " ");
             } else System.out.print((DEFAULT_ARRAY[i]) + " ");
         }

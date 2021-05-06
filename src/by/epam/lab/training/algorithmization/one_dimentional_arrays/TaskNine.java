@@ -15,7 +15,7 @@ public class TaskNine {
      */
 
     public static void main(String[] args) {
-        final int[] DEFAULT_ARRAY = {1, 8, -6, -6, -6, 0, 0, 0, -2, -2};
+        final int[] DEFAULT_ARRAY = {1, 8, -6, -2, -6, 0, 0, 0, -2, -6};
         final int DEFAULT_LENGTH = DEFAULT_ARRAY.length;
         int previousIndex = -1;
         int repetitionsCounter = 0;
